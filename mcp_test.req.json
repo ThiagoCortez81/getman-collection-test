@@ -1,0 +1,17 @@
+{
+  "id": "38589184-2363-4da7-a62e-d037d90bd952",
+  "name": "MCP Test",
+  "isFavorite": false,
+  "request": {
+    "id": "b1aca769-3b51-43ac-99dc-9bcb92a57e16",
+    "method": "GET",
+    "url": "http://localhost:3001/mcp",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "*/*"
+    },
+    "body": "",
+    "bodyType": "raw",
+    "auth": {}
+  }
+}

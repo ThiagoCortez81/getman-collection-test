@@ -1,0 +1,18 @@
+{
+  "id": "a0f1afeb-5af7-4c29-9d42-953b65e492aa",
+  "name": "GraphQL Test",
+  "isFavorite": false,
+  "request": {
+    "id": "6794a8d6-16b9-41e1-aadf-cb40c3e26bbb",
+    "method": "POST",
+    "url": "https://countries.trevorblades.com",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "*/*"
+    },
+    "body": "query($code: ID!) {\n  country(code: $code) {\n    name\n    capital\n    currency\n  }\n}",
+    "bodyType": "graphql",
+    "graphqlVariables": "{ \"code\": \"BR\" }",
+    "auth": {}
+  }
+}

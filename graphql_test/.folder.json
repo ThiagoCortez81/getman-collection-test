@@ -1,0 +1,8 @@
+{
+  "id": "4a521d14-267c-4b05-9441-28089a62c715",
+  "name": "GraphQL Test",
+  "isFavorite": false,
+  "childOrder": [
+    "graphql_test"
+  ]
+}
