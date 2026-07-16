@@ -12,7 +12,7 @@
     },
     "body": "query($code: ID!) {\n  country(code: $code) {\n    name\n    capital\n    currency\n  }\n}",
     "bodyType": "graphql",
-    "graphqlVariables": "{ \"code\": \"AU\" }",
+    "graphqlVariables": "{ \"code\": \"BR\" }",
     "auth": {}
   }
 }
